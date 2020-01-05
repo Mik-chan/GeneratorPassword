@@ -35,7 +35,7 @@ namespace RandomPassword
             int n = Convert.ToInt32(NumberSymbols.Text);
             if (n < 0 || n > symbols.Length)
             {
-                Field.Text = "Ошибка! Нарушен диапазон (минимальное значение 0 максимальное " + symbols.ToString() + ")";
+                Field.Text = "Ошибка! Нарушен диапазон (минимальное значение 0 максимальное " + symbols.Length.ToString() + ")";
             }
             else
             {
